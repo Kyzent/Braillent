@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Braillent</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="quiz">Quiz</string>
+    <string name="translate">Translate</string>
+    <string name="about">About</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="correct">Correct</string>
+    <string name="highScore">High Score: </string>
+    <string name="currentScore">Current Score: </string>
+    <string-array name="spinnerItems">
+        <item>Alphabet</item>
+        <item>Number</item>
+        <item>Punctuation</item>
+    </string-array>
+</resources>

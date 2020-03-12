@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".DictionaryAlphabet">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinnerItems" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:id="@+id/imageViewComma"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_comma"  />
+
+        <ImageView
+            android:id="@+id/imageViewSemicolon"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_semicolon" />
+
+        <ImageView
+            android:id="@+id/imageViewApostrophe"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_apostrophe"  />
+
+
+        <ImageView
+            android:id="@+id/imageViewColon"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_colon"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageViewHyphen"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_hyphen"  />
+
+        <ImageView
+            android:id="@+id/imageViewDecimal"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_decimal" />
+
+        <ImageView
+            android:id="@+id/imageViewFullStop"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_fullstop" />
+
+        <ImageView
+            android:id="@+id/imageViewExclamation"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_exclamation"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewQuestionMark"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_questionmark"  />
+
+        <ImageView
+            android:id="@+id/imageViewOpenQuote"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_openquote"  />
+
+        <ImageView
+            android:id="@+id/imageViewCloseQuote"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_closequote"  />
+
+        <ImageView
+            android:id="@+id/imageViewSlash"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@drawable/braille_slash"  />
+
+    </LinearLayout>
+
+</LinearLayout>
