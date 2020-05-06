@@ -206,7 +206,7 @@ public class Quiz extends AppCompatActivity {
     }
 
     private void NextQuestion(int num){
-        tvCategory.setText(Questions.getQuestion(num));
+        tvCategory.setText("Category: " + Questions.getQuestion(num));
         ivQuiz.setImageResource(getResources().getIdentifier(Questions.getImage(num), "drawable", getPackageName()));
         btnChoice1.setText(Questions.getChoice1(num));
         btnChoice2.setText(Questions.getChoice2(num));
